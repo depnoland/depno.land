@@ -1,4 +1,5 @@
 # depno.land
+![depno banner](docs/depno-banner.png)
 > I'm korean. not good at English. so if you find any grammar mistakes, plz open issue(or pull request)
 
 ## introduction
