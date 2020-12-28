@@ -32,6 +32,3 @@ maybe we can make better automated-docs site
 ## license
 Copyright 2020 depno-land collaborators.\
 See [LICENCE](LICENSE) to more infomation.
-
----
-sounds like it just remote `node_modules` folder, um idk
