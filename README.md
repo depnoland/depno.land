@@ -30,5 +30,5 @@ yea we know, "doc.deno.land" is not good\
 maybe we can make better automated-docs site
 
 ## license
-Copyright 2020 depno-land collaborators.\
+Copyright 2020 depno.land collaborators.\
 See [LICENCE](LICENSE) to more infomation.
