@@ -6,13 +6,11 @@ interface Dependancy {
 function parseDeps (url: string): Promise<Dependancy[]> {
   // deno-lint-ignore no-async-promise-executor
   return new Promise(async (resolve, reject) => {
-    // url에 요청을 보낸다
     const response = await fetch(url, {
       method: 'GET',
       headers: { 'accept': '*/*', 'user-agent': 'Depno/0.1.0' }
     }).then((res) => res.text()).catch(reject)
     
-    // deno모듈이 필요로 하는 디펜던시를 찾아 모은다
     if (!response) return
     const deps: Dependancy[] = []
 
