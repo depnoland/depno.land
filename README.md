@@ -1,5 +1,5 @@
 # depno.land
-> i'm korean. not good at english. so if you find any grammar mistakes, plz open issue(or pull request)
+> I'm korean. not good at English. so if you find any grammar mistakes, plz open issue(or pull request)
 
 ## introduction
 when i was initalizing deno project\
@@ -30,5 +30,5 @@ yea we know, "doc.deno.land" is not good\
 maybe we can make better automated-docs site
 
 ## license
-Copyright 2020 depno.land collaborators.\
+Copyright 2020 **depno.land** collaborators.\
 See [LICENCE](LICENSE) to more infomation.
