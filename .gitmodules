@@ -1,4 +1,3 @@
-[submodule "frontend/src/3rd/bootstrap"]
-	path = frontend/src/3rd/bootstrap
-	url = https://github.com/twbs/bootstrap.git
-	branch = main
+[submodule "frontend/src/3rd/normalize"]
+	path = frontend/src/3rd/normalize
+	url = https://github.com/necolas/normalize.css.git
