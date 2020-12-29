@@ -1,35 +1,44 @@
 # depno.land
+
 ![depno banner](docs/depno-banner.png)
-> I'm korean. not good at English. so if you find any grammar mistakes, plz open issue(or pull request)
+
+> I'm korean, and not good at English. If you find any grammar mistakes, plz open issue or pull request
 
 ## introduction
+
 when i was initalizing deno project\
-i saw this shi**y thing
+i saw this shi\*\*y thing
 
 ![522 errors on cdn.esm.sh](docs/522esmsh.png)
 
 so, we made this,\
-the **deep cached dependancy mirror**
+the **deep cached dependency mirror**
 
 ## features
-as you know, many modules are requesting their dependancies from many web servers (like githubusercontent, cdn.esm.sh, deno.land...)
 
-it's okay when all of deps servers works.\
+as you know, many modules are requesting their dependencies from a lot of web servers (like githubusercontent, cdn.esm.sh, deno.land...)
+
+it's okay when all of deps servers works well,\
 but if one of these web servers dead and you don't have any cache, \*hell gate opens\*
 
-so we trying to make following features:
+so we are trying to make following features:
+
 ### deep caching
+
 you can request caching with our website.\
-automated system will be scan requested code, check dependancies and download all of dependancies(recursively).
+automated system will scan requested code, check dependencies and download all of dependencies recursively.
 
 ### deps url injection
-when it finished deep caching, we inject code's dependancies url to our mirror url.\
-so if you import our cached module, deno will be use one web server(our mirror)
+
+when deep caching finishes, we will inject code's dependencies url to our mirror url.\
+so if you import our cached module, deno will use one web server(our mirror)
 
 ### automated documentation
-yea we know, "doc.deno.land" is not good\
+
+yeah we know, "doc.deno.land" is not good\
 maybe we can make better automated-docs site
 
 ## license
+
 Copyright 2020 **depno.land** collaborators.\
 See [LICENCE](LICENSE) to more infomation.
