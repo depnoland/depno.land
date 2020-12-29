@@ -1,0 +1,4 @@
+[submodule "frontend/src/3rd/bootstrap"]
+	path = frontend/src/3rd/bootstrap
+	url = https://github.com/twbs/bootstrap.git
+	branch = main
