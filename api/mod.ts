@@ -1,5 +1,5 @@
 import { serve } from 'https://deno.land/std/http/server.ts'
-import { scanDeps } from './parser/deps-url.ts'
+import { scanDeps } from 'https://deno.land/x/depscan@v0.9.0/mod.ts'
 
 const s = serve({ port: 8000 })
 
@@ -19,7 +19,7 @@ for await (const req of s) {
         req.respond({
           status: 200,
           headers: new Headers({ 'Content-Type': 'application/json' }),
-          body: JSON.stringify((await scanDeps(q)).reduce((prev: string[], curr) => [...prev, curr.url], []))
+          body: JSON.stringify(await scanDeps(q, { recursive: true, debug: true }))
         })
       }
       
