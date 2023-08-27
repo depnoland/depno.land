@@ -40,5 +40,5 @@ maybe we can make better automated-docs site
 
 ## license
 
-Copyright 2020 **depno.land** collaborators.\
+Copyright 2020~2023 **depno.land** collaborators.\
 See [LICENCE](LICENSE) to more infomation.
