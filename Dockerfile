@@ -3,7 +3,7 @@ FROM denoland/deno:1.36.3
 # The port that your application listens to.
 EXPOSE 8080
 
-WORKDIR /app
+WORKDIR /
 
 # Prefer not to run as root.
 USER deno
