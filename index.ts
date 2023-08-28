@@ -1,6 +1,6 @@
 const PORT = Number(Deno.env.get('port')) || 8080
-const HOST = Deno.env.get('host') || 'localhost'
-const TOKEN = Deno.env.get('token')
+const HOST = Deno.env.get('host') || 'depno.org'
+const TOKEN = Deno.env.get('token') || 'depno.land'
 
 import { serve } from "https://deno.land/std@0.154.0/http/server.ts"
 import { scanDeps } from 'https://raw.githubusercontent.com/depnoland/depscan/main/mod.ts'
