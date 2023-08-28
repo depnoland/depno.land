@@ -2,12 +2,9 @@
 
 ![depno banner](docs/depno-banner.png)
 
-> I'm korean, and not good at English. If you find any grammar mistakes, plz open issue or pull request
-
 ## introduction
 
 when i was initalizing deno project\
-i saw this shi\*\*y thing
 
 ![522 errors on cdn.esm.sh](docs/522esmsh.png)
 
@@ -32,11 +29,6 @@ automated system will scan requested code, check dependencies and download all o
 
 when deep caching finishes, we will inject code's dependencies url to our mirror url.\
 so if you import our cached module, deno will use one web server(our mirror)
-
-### automated documentation
-
-yeah we know, "doc.deno.land" is not good\
-maybe we can make better automated-docs site
 
 ## license
 
