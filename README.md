@@ -4,7 +4,7 @@
 
 ## introduction
 
-when i was initalizing deno project\
+when i was initalizing deno project
 
 ![522 errors on cdn.esm.sh](docs/522esmsh.png)
 
